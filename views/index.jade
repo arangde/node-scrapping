@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Current lotteries included are: 'powerball', 'megamillions'
+  p navigate to /lottery/json to get all lotteries in json format
+  p navigate to /lottery/xml to get all lotteries in xml format
+  p navigate to /:gameName/:draws/json to get 'draws' number of previous draws for 'gameName'
+
